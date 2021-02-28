@@ -38,15 +38,17 @@ Customers write product reviews on ecommerce websites like Amazon. Amazon proces
 ## Demo Video 
 Below is the Demo Video of our Solution located on Youtube.
 
-Coming Shortly
+[![DEMO Video](https://img.youtube.com/vi/yOqqLBWM8F0/0.jpg)](https://www.youtube.com/watch?v=yOqqLBWM8F0)
 
-## Technical Details 🧰 
+## Technical Details/ Dependencies 🧰 
 + Python 🐍 
 + FastAPI 
 + Uvicorn 🌏 
 + Heroku 
 + Microsoft Azure ☁️
 + HTML, CSS & JS 
+
+For more Detail, see `requirements.txt`
 
 ## Running Tagonizer Locally 
 
@@ -89,6 +91,12 @@ $ uvicorn API.main:app --reload --host=0.0.0.0 --port=8000
 ```
 9. Open `http://localhost:8000/` in browser of your choice. You will be greeted with Swagger UI and further details are present there. 
 
+
+## Previous Work 
+We tried to make extension before but failed terribly. It was laggy, taking down the whole site with it. NLP model was not sufficing in heroku free plan. UI was boring. 
+
+## New Work
+New Model for NLP, Modern UI designed on Figma, Added New features like Dark Mode, support for image categorization. Much better server strength. It also ready to ship on chrome store. Remove coding error of memory leaking. We have extensively tested with multiple staging server and staging infra before getting this finally up. 
 
 ## LICENSE 
 
