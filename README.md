@@ -27,16 +27,18 @@ Customers write product reviews on ecommerce websites like Amazon. Amazon proces
 
 ## Solution 💡 
 
-+ Comment Analyzer: Using Natural Language Processing to analyze Comments
-+ Tag Predictor: Predict Useful Tags Based on Comments and Classify them as Positive and Negative
-+ Sentiment Analysis: Using Deep Learning to Analyze the Sentiments and Mine opinions from reviews
-+ Chrome Extension: Products Chrome Extension that fetches reviews, whenever you visit Amazon and provides you with Tags in an interactive UI
++ Useless or Meaningless Auto-Generated Tags 🏷️
++ Reviews not classified as positive👍 or negative 👎
++ Tags not classified as positive👍 or negative 👎
++ Repeated Tags 🏷️🤔
++ Paid Review Tags that don't reflect sentiments of Customers 😢
++ Misleading Images that don't match the actual product ❓
++ New Buyer or Potential customer had to go through hundreds of reviews, tags and images to judge the product properly 😳
 
 ## Demo Video 
 Below is the Demo Video of our Solution located on Youtube.
 
-[![DEMO Video](https://img.youtube.com/vi/c72HItyH1wU/0.jpg)](https://www.youtube.com/watch?v=c72HItyH1wU)
-
+Coming Shortly
 
 ## Technical Details 🧰 
 + Python 🐍 
@@ -81,11 +83,11 @@ $ pip install -r requirements.txt
   + You can use the free pricing tier (F0) to try the service, and upgrade later to a paid tier for production.
   + Save them in Environment as `VKEY` & `VENDPOINT` for both key and endpoint respectively.
 
-7. Run the following command to start backend at `http://localhost:8000/`
+8. Run the following command to start backend at `http://localhost:8000/`
 ```bash
 $ uvicorn API.main:app --reload --host=0.0.0.0 --port=8000
 ```
-8. Open `http://localhost:8000/` in browser of your choice. You will be greeted with Swagger UI and further details are present there. 
+9. Open `http://localhost:8000/` in browser of your choice. You will be greeted with Swagger UI and further details are present there. 
 
 
 ## LICENSE 
